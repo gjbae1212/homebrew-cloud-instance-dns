@@ -2,14 +2,14 @@
 class CloudInstanceDns < Formula
   desc "A DNS that will look up aws(ec2), gcp(compute-engine) regardless of multi regions by instance-name or id."
   homepage ""
-  version "1.0.1"
+  version "1.0.2"
 
   if OS.mac?
-    url "https://github.com/gjbae1212/cloud-instance-dns/releases/download/v1.0.1/cloud-instance-dns_1.0.1_Darwin_x86_64.tar.gz"
-    sha256 "74aaa6e06e67b031ad401aac29f2e1528d86e0a5c89d77208ff2c4d767e32bc5"
+    url "https://github.com/gjbae1212/cloud-instance-dns/releases/download/v1.0.2/cloud-instance-dns_1.0.2_Darwin_x86_64.tar.gz"
+    sha256 "7dc8c736468e4085909cf31e01d70bb7d31d869bdc8a35a7cce5f048f9eb96fe"
   elsif OS.linux?
-    url "https://github.com/gjbae1212/cloud-instance-dns/releases/download/v1.0.1/cloud-instance-dns_1.0.1_Linux_x86_64.tar.gz"
-    sha256 "f8aea4a1dcd9602c370fffd3f84a72f6e8bdf8e9c03bbc0f9bdec98ce7a47b06"
+    url "https://github.com/gjbae1212/cloud-instance-dns/releases/download/v1.0.2/cloud-instance-dns_1.0.2_Linux_x86_64.tar.gz"
+    sha256 "b843af220c746aaeee7fd4c2baeb863a0452e9900a018097412fcc9233e30ef5"
   end
 
   def install
